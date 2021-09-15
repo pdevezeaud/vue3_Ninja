@@ -1,12 +1,30 @@
-const app = Vue.createApp({
-    data(){
-        return {
-          title: 'The Finale Empire'  
-        }
-    }
+// // const app = Vue.createApp({
+// //     data(){
+// //         return {
+// //           title: 'The Finale Empire',
+// //           author: 'Brandon Sanderson',
+// //           age: 45 
+// //         }
+// //     }
+    
+// // })
+
+// app.mount('#app')
+
+const app2 = Vue.createApp({
+  data(){
+      return {
+        title: 'The Finale Empire',
+        author: 'Brandon Sanderson',
+        age: 45 
+      }
+  },
+  
 })
 
-app.mount('#app')
+app2.mount('#app2')
 
 
-//11:37 https://www.youtube.com/watch?v=F7PLPJqVotk&t=302s  
+
+
+//22:24 https://www.youtube.com/watch?v=F7PLPJqVotk&list=PL4cUxeGkcC9hYYGbV60Vq3IXYNfDk8At1&index=3
