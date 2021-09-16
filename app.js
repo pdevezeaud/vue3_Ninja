@@ -9,20 +9,49 @@
     
 // // })
 
+
+
 // app.mount('#app')
 
-const app2 = Vue.createApp({
+// const app2 = Vue.createApp({
+//   data(){
+//       return {
+//         showBooks: true,
+//         title: 'The Finale Empire',
+//         author: 'Brandon Sanderson',
+//         age: 45 
+//       }
+//   },
+//   methods: {
+//     toggleShowBooks() {
+//       this.showBooks = !this.showBooks
+//     }
+//   },
+  
+// })
+
+// app2.mount('#app2')
+
+
+const app3 = Vue.createApp({
   data(){
       return {
+        showBooks: true,
         title: 'The Finale Empire',
         author: 'Brandon Sanderson',
         age: 45 
       }
   },
+  methods: {
+    toggleShowBooks() {
+      this.showBooks = !this.showBooks
+    }
+  },
   
 })
 
-app2.mount('#app2')
+app3.mount('#app3')
+
 
 
 
