@@ -119,7 +119,32 @@
 
 <!-- CLASS DYNAMIQUE: CSS AJOUT DE CLASSE -->
 
-<div id="app6">
+<!-- <div id="app6">
+  <a :href="url">best website ever</a>
+  <div v-if="showBooks">
+   <ul>
+     <li v-for="book in books" :class="{fav: book.isFav}">
+       <img :src="book.img" :alt="book.title">
+           <h3>{{book.title}}</h3>
+           <p>{{book.author}}</p>
+     </li>
+   </ul>
+  </div>
+
+
+  <button @click="toggleShowBooks">
+    <span v-if="showBooks">Hide Books</span>
+    <span v-if="!showBooks">Show Books</span>
+  </button>
+
+</div> -->
+
+<!-- CLASS DYNAMIQUE: CSS AJOUT DE CLASSE -->
+
+
+
+<!-- Togglin fav -->
+<div id="app7">
   <a :href="url">best website ever</a>
   <div v-if="showBooks">
    <ul>
@@ -138,6 +163,7 @@
   </button>
 
 </div>
+
   
 
 
